@@ -6,3 +6,5 @@ cache
 .temp
 .DS_Store
 _pagefind
+CLAUDE.md
+.claude/
