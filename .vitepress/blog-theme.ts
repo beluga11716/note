@@ -44,41 +44,10 @@ export const blogTheme = getThemeConfig({
     twinkle: true
   },
 
-  // --- Friend Links ---
-  friend: {
-    list: [
-      {
-        nickname: '夏夜流萤',
-        url: 'https://blog.cuteleaf.cn',
-        avatar: 'https://weavatar.com/avatar/d252655ea01c3e13da91b473a3150614',
-        des: '飛螢之火自無夢的長夜亮起，綻放在終竟的明天。'
-      },
-      {
-        nickname: 'Firefly Docs',
-        url: 'https://docs-firefly.cuteleaf.cn',
-        avatar: 'https://docs-firefly.cuteleaf.cn/logo.png',
-        des: 'Firefly主題模板文檔'
-      },
-      {
-        nickname: 'Astro',
-        url: 'https://github.com/withastro/astro',
-        avatar: 'https://avatars.githubusercontent.com/u/44914786',
-        des: 'The web framework for content-driven websites.'
-      },
-    ],
-    random: true,
-    limit: 6,
-  },
-
   // --- Search ---
   search: {
     showDate: true,
     pageResultCount: 4
-  },
-  recommend: {
-    showSelf: true,
-    nextText: '下一頁',
-    style: 'sidebar'
   },
 
   // --- Author ---
@@ -94,11 +63,6 @@ export const blogTheme = getThemeConfig({
   footer: {
     copyright: `RAYNARD 2018 - ${new Date().getFullYear()}`,
     message: 'CC BY-NC-SA 4.0'
-  },
-
-  // --- Hot Articles ---
-  hotArticle: {
-    pageSize: 12
   },
 
   // --- Comment (disabled by default, uncomment to enable Giscus) ---
