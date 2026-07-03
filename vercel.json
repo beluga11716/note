@@ -1,0 +1,5 @@
+{
+  "framework": "vitepress",
+  "outputDirectory": ".vitepress/dist",
+  "installCommand": "npm install"
+}

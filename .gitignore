@@ -1,0 +1,8 @@
+node_modules
+dist
+.vitepress/dist
+.vitepress/cache
+cache
+.temp
+.DS_Store
+_pagefind
