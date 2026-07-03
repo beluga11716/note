@@ -65,6 +65,9 @@ export const blogTheme = getThemeConfig({
     message: 'CC BY-NC-SA 4.0'
   },
 
+  recommend: false,
+  hotArticle: false,
+
   // --- Comment (disabled by default, uncomment to enable Giscus) ---
   // comment: {
   //   repo: 'beluga11716/note',
